@@ -33,4 +33,6 @@ result = f"Current temperature {temp} in {geo_json['city']}"
 notification = Notify()
 notification.title = "Weather"
 notification.message = result
+notification.icon = "live_weather/cloud.png"
+
 notification.send()
